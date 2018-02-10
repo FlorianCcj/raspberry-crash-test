@@ -1,0 +1,15 @@
+# /etc/fail2ban/jail.local
+
+[apache-admin]
+enable = true
+port = http
+filter = apache-admin
+lopath = /var/log/apache*/error*.log
+maxretry = 6
+
+[apache-404]
+enable = true
+port = http
+filter apache-404
+logpath = /var/log/ispvonfig/httpd/*/error*
+maxretry = 10
