@@ -1,0 +1,1 @@
+use a sensor LM76 to have the temperature

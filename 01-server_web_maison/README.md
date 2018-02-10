@@ -10,7 +10,7 @@ create by following the tutorial on: https://raspberry-pi.developpez.com/cours-t
 
 ## basic configuration
 
-### On raspi-config
+### On raspi-config (sudo raspi-config)
  * expand_rootfs: expand raspbian particion to all card;
  * configure_keyboard: change keyboard disposition;
  * change_locale: switch language;
