@@ -1,7 +1,7 @@
 # Button.py
 
 # Import des modules
-import RPi.GPIO
+import RPi.GPIO as GPIO
 import time
 
 # Initialisation de la numerotation et des E/S
