@@ -25,7 +25,8 @@ GPIO.setup(pin.output_button, GPIO.IN)
 # et on attend que le bouton soit relache
 while True:
     state = GPIO.input(pin.output_button)
-    if not state:
+    print(state)
+    if state:
         # on a appuye sur le bouton connecte sur la broche 19
         GPIO.output(pin.input_led, GPIO.HIGH)
         while state:
