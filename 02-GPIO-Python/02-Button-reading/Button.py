@@ -11,7 +11,7 @@ GPIO.setup(19, GPIO.IN)
 
 # Si on detecte un appui sur le bouton, on allume la LED 
 # et on attend que le bouton soit relache
-while True:
+while False:
     state = GPIO.input(19)
     if not state:
         # on a appuye sur le bouton connecte sur la broche 19
