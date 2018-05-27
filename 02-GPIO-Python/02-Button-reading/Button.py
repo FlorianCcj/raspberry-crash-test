@@ -6,8 +6,8 @@ import time
 
 LED_INPUT_PIN = 12
 BUTTON_OUTPUT_PIN = 19
-print("led's input's pin: " + LED_INPUT_PIN)
-print("button's output's pin: " + BUTTON_OUTPUT_PIN)
+print("led's input's pin: %d", LED_INPUT_PIN)
+print("button's output's pin: %d", BUTTON_OUTPUT_PIN)
 
 # Initialisation de la numerotation et des E/S
 GPIO.setmode(GPIO.BOARD)
